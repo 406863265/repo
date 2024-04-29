@@ -1,10 +1,10 @@
-# repo
-sunshinesong's repo. Dedicated to free tweak.
+#回购协议
+阳光之歌的回购。致力于自由调整。
 
-### tip myself
+###给自己小费
 
-#将位于debs目录的所有deb包扫描并生成Packages
-dpkg-scanpackages -m debs/ > Packages
-#生成客户端可能需要的gz和bz2压缩的Packages
-gzip -c Packages > Packages.gz
-bzip2 -k Packages
+#将位于德布目录的所有德布包扫描并生成包
+dpkg-scan软件包-m debs/>软件包
+#生成客户端可能需要的gz和bz2压缩的软件包
+gzip -c软件包>Packages.gz
+Bzip 2 -k软件包
